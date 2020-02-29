@@ -2,7 +2,7 @@ import os
 import csv
 import operator
 #Read in csv file
-filepath = os.path.join(".","budget_data.csv")
+filepath = os.path.join(".","Resources","budget_data.csv")
 with open(filepath,newline = "") as csvfile:
     csvreader = csv.reader(csvfile, delimiter = ",")
     #remove header

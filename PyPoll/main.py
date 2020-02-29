@@ -3,7 +3,7 @@ import csv
 #prepare the text file
 text_file = open("Main_Result.txt","w+")
 #load in the csv file
-filepath = os.path.join(".","election_data.csv")
+filepath = os.path.join(".","Resources","election_data.csv")
 with open(filepath,newline = "") as csvfile:
     csvreader = csv.reader(csvfile,delimiter = ",")
     #remove header
